@@ -1,0 +1,85 @@
+.servtop1 {
+    text-align: center;
+}
+
+#service {
+    margin-top: 120px;
+}
+
+#sh1 {
+    margin-top: -10px;
+    line-height: 1.2;
+}
+
+.servtop2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    margin-top: -10px;
+    margin-left: 200px;
+}
+
+#line {
+    margin-top: 20px;
+}
+
+#sh3 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.servtop2left {
+    background-color: #757575;
+    height: 240px;
+    width: 550px;
+    text-align: center;
+    color: white;
+}
+
+#servtop2left {
+    background-color: #6625D2;
+    color: #6625D2;
+}
+
+#sp {
+    text-align: center;
+}
+
+.servbottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 140px;
+    gap: 5vh;
+}
+
+.servbleft {
+    margin-top: 180px;
+}
+
+@media (max-width: 768px) {
+    .servtop2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servtop2left {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    .servbottom {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+}

@@ -1,0 +1,76 @@
+.fmain {
+    margin-top: 100px;
+    background-color: #8674a3;
+}
+
+.ftop {
+    display: flex;
+    flex-direction: row;
+    gap: 50vh;
+    margin-left: 140px;
+}
+
+.fmid{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    justify-content: space-evenly;
+}
+
+.fend{
+    text-align: center;
+}
+
+#sendbtn1 {
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    background-color: #6625D2;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#sendbtn1:hover {
+    opacity: 0.8;
+}
+
+#name, #email, #message {
+    height: 40px;
+    width: 240px;
+    border: 3px solid #6625D2;
+    padding-left: 10px;
+}
+
+#message {
+    height: 120px;
+}
+
+.fdown {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 130px;
+    gap: 20vh;
+}
+
+@media (max-width: 768px) {
+    .ftop {
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .fdown {
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    #name, #email, #message {
+        width: 100%;
+        max-width: 300px;
+    }
+}
